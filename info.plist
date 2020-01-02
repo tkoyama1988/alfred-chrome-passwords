@@ -21,7 +21,33 @@
 				<false/>
 			</dict>
 		</array>
+		<key>31FB8EBF-691A-4760-9040-C0D6BFE64FDF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A55FEBB3-FF79-4423-BF62-88852209BE9C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9F1468CE-D107-4676-BC98-B66947DB9AE3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49F46A2B-E033-4214-9CC6-D84213949876</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A55FEBB3-FF79-4423-BF62-88852209BE9C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -48,66 +74,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>password</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Reading database...</string>
-				<key>script</key>
-				<string>python passwords.py --query="$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Browse your passwords saved in Google Chrome</string>
-				<key>title</key>
-				<string>Chrome Passwords</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>049FB103-A748-4A6E-9B25-3CE43041BD8D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>49F46A2B-E033-4214-9CC6-D84213949876</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -128,6 +94,144 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>password</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Reading database...</string>
+				<key>script</key>
+				<string>python passwords.py --query="$1" --profile="all"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Browse your passwords saved in Google Chrome</string>
+				<key>title</key>
+				<string>Chrome Passwords</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>049FB103-A748-4A6E-9B25-3CE43041BD8D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>49F46A2B-E033-4214-9CC6-D84213949876</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>chromeid</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Reading database...</string>
+				<key>script</key>
+				<string>python passwords.py --query="$1" --profile="all" --type="id"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Browse your passwords saved in Google Chrome</string>
+				<key>title</key>
+				<string>Chrome ids</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>31FB8EBF-691A-4760-9040-C0D6BFE64FDF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>python chromeid.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A55FEBB3-FF79-4423-BF62-88852209BE9C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Browse your passwords saved in Google Chrome.</string>
@@ -138,21 +242,35 @@
 			<key>xpos</key>
 			<integer>120</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>160</integer>
+		</dict>
+		<key>31FB8EBF-691A-4760-9040-C0D6BFE64FDF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>355</integer>
 		</dict>
 		<key>49F46A2B-E033-4214-9CC6-D84213949876</key>
 		<dict>
 			<key>xpos</key>
-			<integer>730</integer>
+			<integer>725</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>240</integer>
 		</dict>
 		<key>9F1468CE-D107-4676-BC98-B66947DB9AE3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>510</integer>
+			<integer>445</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>160</integer>
+		</dict>
+		<key>A55FEBB3-FF79-4423-BF62-88852209BE9C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>445</integer>
+			<key>ypos</key>
+			<integer>355</integer>
 		</dict>
 	</dict>
 	<key>version</key>

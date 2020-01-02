@@ -26,6 +26,13 @@ python passwords.py --query="$1" --profile="Profile 1"
 ```
 ![image](https://cloud.githubusercontent.com/assets/193864/17643119/9ac8a2d2-6192-11e6-9763-b53ad6769a1c.png)
 
+# Using default and all profile
+
+Provide `--profile` argument to `passwords.py` script. For example:
+```bash
+python passwords.py --query="$1" --profile="all"
+```
+
 # Security
 
 Chrome stores all your passwords inside of sqlite database named `Login Data`.
