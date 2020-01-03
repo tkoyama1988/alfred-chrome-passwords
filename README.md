@@ -18,6 +18,8 @@ Continue typing to filter them and press `Enter` to copy it. Note that by
 default you will be required to type your OS password to decrypt selected
 password.
 
+Type `chromeid` keyword to see the most frequent ids you have used.
+
 # Using non-default profile
 
 Provide `--profile` argument to `passwords.py` script. For example:
